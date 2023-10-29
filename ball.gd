@@ -1,12 +1,14 @@
 extends RigidBody3D
 
 var hasShot = false
-var min_z = -2
-var max_z = 2
-var gravity = 10
+
+const min_z = -2
+const max_z = 2
+const gravity = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	gravity_scale = 0
 	apply_central_impulse(Vector3(0,0,1))
 
 
@@ -23,5 +25,6 @@ func  _physics_process(delta):
 			hasShot = true
 			linear_velocity = Vector3.ZERO
 			apply_central_impulse(Vector3(0,-2,0))
-	else:
-		apply_central_impulse(Vector3(0,-1 * gravity * delta,0))
+			gravity_scale = gravity
+#	else:
+#		apply_central_impulse(Vector3(0,-1 * gravity * delta,0))

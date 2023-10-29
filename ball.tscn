@@ -4,14 +4,13 @@
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_qq0gt"]
 friction = 0.0
-bounce = 0.05
+bounce = 0.55
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_itx8e"]
 radius = 0.25
 
 [node name="RigidBody3D" type="RigidBody3D"]
 physics_material_override = SubResource("PhysicsMaterial_qq0gt")
-gravity_scale = 1.2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0, 0, 0)

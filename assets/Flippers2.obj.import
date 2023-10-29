@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bf5d1go5hgocc"
+path="res://.godot/imported/Flippers2.obj-684f8eae8c105265512ecfc8242df6b2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Flippers2.obj-684f8eae8c105265512ecfc8242df6b2.mesh"]
+
+source_file="res://assets/Flippers2.obj"
+dest_files=["res://.godot/imported/Flippers2.obj-684f8eae8c105265512ecfc8242df6b2.mesh", "res://.godot/imported/Flippers2.obj-684f8eae8c105265512ecfc8242df6b2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
